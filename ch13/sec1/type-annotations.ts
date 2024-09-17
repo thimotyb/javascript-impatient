@@ -1,4 +1,5 @@
 // ts-node -O '{ "target": "es2020", "strict": true }' type-annotations.ts
+// This does not work in windows because of escape chars on prompt, use ubuntu or try \\"target\\".....
 
 
 const average = (x: number, y: number) => (x + y) / 2
